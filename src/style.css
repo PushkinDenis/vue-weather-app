@@ -1,6 +1,68 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-background: oklch(0.3576 0.0272 259.15);
+  --color-white: oklch(1 0 0);
+  --color-dark-grey: oklch(0.2749 0.0188 258.37);
+  --color-light-grey: oklch(0.2983 0.0191 254.81);
+  --color-font-grey: oklch(0.4025 0.0285 258.36);
+  --color-font-black: oklch(0 0 0);
+
+  --color-image-gradient: linear-gradient(
+    152.19deg,
+    rgba(136, 235, 239, 0.9) -0.04%,
+    rgba(83, 91, 230, 0.9) 100%
+  );
+
+  --color-button-gradient: linear-gradient(
+    90.8deg,
+    rgba(144, 217, 224, 0.9) 0.2%,
+    rgba(84, 96, 230, 0.9) 100%
+  );
+
+  --radius-small: 0.625rem;
+  --radius-medium: 1.5625rem;
+  --radius-large: 1.875rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+* {
+  margin: 0;
+  border: none;
+  font-family: "Montserrat";
 }
