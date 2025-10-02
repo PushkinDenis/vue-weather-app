@@ -67,6 +67,12 @@
   --font-xl: 3rem;
   --font-2xl: 3.7rem;
   --font-3xl: 5rem;
+
+  --spacing-xsm: 0.5625rem;
+  --spacing-sm: 0.8125rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
 }
 
 * {
