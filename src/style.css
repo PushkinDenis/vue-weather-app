@@ -32,12 +32,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-background: oklch(0.3576 0.0272 259.15);
-  --color-white: oklch(1 0 0);
-  --color-dark-grey: oklch(0.2749 0.0188 258.37);
-  --color-light-grey: oklch(0.2983 0.0191 254.81);
-  --color-font-grey: oklch(0.4025 0.0285 258.36);
-  --color-font-black: oklch(0 0 0);
+  --color-bg: oklch(0.3576 0.0272 259.15);
+  --color-bg-main: oklch(0.2749 0.0188 258.37);
+  --color-bg-card: oklch(0.2983 0.0191 254.81);
+  --color-primary: oklch(1 0 0);
+  --color-primary-inverted: oklch(0 0 0);
+  --color-primary-placeholder: oklch(0.4025 0.0285 258.36);
 
   --color-image-gradient: linear-gradient(
     152.19deg,
@@ -78,5 +78,5 @@
 * {
   margin: 0;
   border: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat" sans-serif;
 }
