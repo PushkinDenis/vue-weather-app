@@ -83,5 +83,6 @@
 * {
   margin: 0;
   border: none;
+  background: var(--color-bg);
   font-family: "Montserrat", sans-serif;
 }
