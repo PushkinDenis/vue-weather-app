@@ -78,6 +78,8 @@
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
+  --spacing-2xl: 3.125rem;
+  --spacing-3xl: 3.75rem;
 }
 
 * {
@@ -85,4 +87,10 @@
   border: none;
   background: var(--color-bg);
   font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
