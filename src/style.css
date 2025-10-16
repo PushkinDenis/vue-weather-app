@@ -44,32 +44,37 @@
     rgba(136, 235, 239, 0.9) -0.04%,
     rgba(83, 91, 230, 0.9) 100%
   );
-
   --color-button-gradient: linear-gradient(
     90.8deg,
     rgba(144, 217, 224, 0.9) 0.2%,
     rgba(84, 96, 230, 0.9) 100%
   );
+  --color-button-gradient-inverted: linear-gradient(
+    256.33deg,
+    rgba(144, 217, 224, 0.9) 9.04%,
+    rgba(84, 96, 230, 0.9) 92.2%
+  );
 
-  --radius-small: 0.625rem;
-  --radius-medium: 1.5625rem;
-  --radius-large: 1.875rem;
+  --radius-sm: 0.625rem;
+  --radius-md: 1.5625rem;
+  --radius-lg: 1.875rem;
 
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 
-  --font-xsm: 1.8rem;
+  --font-2xs: 1.25rem;
+  --font-xs: 1.8rem;
   --font-sm: 2rem;
-  --font-m: 2.2rem;
-  --font-l: 2.8rem;
+  --font-md: 2.2rem;
+  --font-lg: 2.8rem;
   --font-xl: 3rem;
   --font-2xl: 3.7rem;
   --font-3xl: 5rem;
 
   --spacing-xsm: 0.5625rem;
-  --spacing-sm: 0.8125rem;
+  --spacing-sm: 0.875rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
@@ -78,5 +83,5 @@
 * {
   margin: 0;
   border: none;
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
