@@ -64,8 +64,8 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 
-  --font-2xs: 1.25rem;
-  --font-xs: 1.8rem;
+  --font-2xs: 1.125rem;
+  --font-xs: 1.25rem;
   --font-sm: 2rem;
   --font-md: 2.2rem;
   --font-lg: 2.8rem;
@@ -93,4 +93,8 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+}
+
+input:focus {
+  outline: none;
 }
